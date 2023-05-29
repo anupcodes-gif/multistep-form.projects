@@ -16,10 +16,6 @@ const confirmBtn = document.querySelector('.confirm-btn')
 const finalOutput = document.querySelector('.final-output')
 const sideBarNum = document.querySelector('side-bar-num')
 const numBtn = document.getElementById('.btn-num')
-function hover() {
-  numBtn.style.backgroundColor = 'red'
-}
-hover()
 
 function toggleSection(button, section, hideSections) {
   button.addEventListener('click', (event) => {
